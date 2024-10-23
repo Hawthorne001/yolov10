@@ -1,7 +1,7 @@
 ---
 comments: true
 description: Discover how to extend the utility of the Ultralytics package to support your development process.
-keywords: Ultralytics, YOLO, custom, function, workflow, utility, support, 
+keywords: Ultralytics, YOLO, custom, function, workflow, utility, support,
 ---
 
 # Simple Utilities
@@ -49,7 +49,7 @@ from ultralytics.data.converter import convert_coco
 
 convert_coco(#(1)!
     '../datasets/coco/annotations/',
-    use_segments=False, 
+    use_segments=False,
     use_keypoints=False,
     cls91to80=True,
 )
@@ -170,7 +170,7 @@ mask = polygon2mask(
     [polygon], # input as list
     color=255, # 8-bit binary
     downsample_ratio=1
-) 
+)
 ```
 
 ## Bounding Boxes
@@ -211,7 +211,7 @@ boxes.bboxes
 See the [`Bboxes` reference section](../reference/utils/instance.md#ultralytics.utils.instance.Bboxes) for more attributes and methods available.
 
 !!! tip
-    Many of the following functions (and more) can be accessed using the [`Bboxes` class](#bounding-box-horizontal-instances) but if you prefer to work with the functions directly, see the next subsections on how to import these independently. 
+    Many of the following functions (and more) can be accessed using the [`Bboxes` class](#bounding-box-horizontal-instances) but if you prefer to work with the functions directly, see the next subsections on how to import these independently.
 
 ### Scaling Boxes
 
@@ -258,7 +258,7 @@ new_boxes#(1)!
 
 1. Bounding boxes scaled for the new image size
 
-### Bounding Box Format Conversions 
+### Bounding Box Format Conversions
 
 #### XYXY → XYWH
 
@@ -387,7 +387,7 @@ image_with_obb = ann.result()
 
 See the [`Annotator` Reference Page](../reference/utils/plotting.md#ultralytics.utils.plotting.Annotator) for additional insight.
 
-## Miscellaneous 
+## Miscellaneous
 
 ### Code Profiling
 

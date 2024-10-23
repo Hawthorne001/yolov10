@@ -32,7 +32,7 @@ Here are the key features that make TF SavedModel a great option for AI develope
 
 ## Deployment Options with TF SavedModel
 
-Before we dive into the process of exporting YOLOv8 models to the TF SavedModel format, let's explore some typical deployment scenarios where this format is used. 
+Before we dive into the process of exporting YOLOv8 models to the TF SavedModel format, let's explore some typical deployment scenarios where this format is used.
 
 TF SavedModel provides a range of options to deploy your machine learning models:
 
@@ -55,7 +55,7 @@ To install the required package, run:
 !!! Tip "Installation"
 
     === "CLI"
-    
+
         ```bash
         # Install the required package for YOLOv8
         pip install ultralytics

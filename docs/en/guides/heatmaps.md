@@ -183,7 +183,7 @@ A heatmap generated with [Ultralytics YOLOv8](https://github.com/ultralytics/ult
 
         im0 = cv2.imread("path/to/image.png")  # path to image file
         h, w = im0.shape[:2]  # image height and width
-        
+
         # Heatmap Init
         heatmap_obj = heatmap.Heatmap()
         heatmap_obj.set_args(colormap=cv2.COLORMAP_PARULA,

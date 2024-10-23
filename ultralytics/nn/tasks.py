@@ -48,7 +48,6 @@ from ultralytics.nn.modules import (
     SPPELAN,
     CBFuse,
     CBLinear,
-    Silence,
     C2fCIB,
     PSA,
     SCDown,
